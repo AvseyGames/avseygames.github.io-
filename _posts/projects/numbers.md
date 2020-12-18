@@ -7,8 +7,8 @@ meta:
   keywords: "Game, Android"
 
 project:
-  title: "19 Numbers"
-  type: "Jekyll"
+  title: "19Numbers"
+  type: "Game"
   url: "https://play.google.com/store/apps/details?id=avseygames.numbers.android"
   logo: "/assets/images/projects/numbers/icon.png"
   tech: "java, libgdx"
