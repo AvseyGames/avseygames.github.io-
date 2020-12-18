@@ -12,6 +12,15 @@
 	<main class="content">
 		<section class="project">
 			<div class="container">
+				<aside>
+					<ul>
+						{% for image in page.images %}
+						<li>
+							<img src="{{ image.url | prepend: site.baseurl }}" alt="{{ image.alt }}" />
+						</li>
+						{% endfor %}
+					</ul>
+				</aside>
 				<article>
 					<span class="h2">Project Title</span>
 					<h1>
@@ -28,15 +37,7 @@
 						<p>{{ page.agency.year }}</p>
 					</div>
 				</article>
-				<aside>
-					<ul>
-						{% for image in page.images %}
-						<li>
-							<img src="{{ image.url | prepend: site.baseurl }}" alt="{{ image.alt }}" />
-						</li>
-						{% endfor %}
-					</ul>
-				</aside>
+				
 			</div>
 		</section>
 		<section class="project-navigation">
