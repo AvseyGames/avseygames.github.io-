@@ -9,7 +9,7 @@ twitter:
 github: 
 
 # Site config
-baseurl: "avseygames.github.io"
+baseurl: "/"
 highlighter: rouge
 sass:
   sass_dir: assets/scss
