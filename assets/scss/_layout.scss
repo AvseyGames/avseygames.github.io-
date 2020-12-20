@@ -203,19 +203,7 @@
 		background-color: #343a40;
 		border-color: #343a40;
 	}
-
-	.btn-dark:not(:disabled):not(.disabled):active, .btn-dark:not(:disabled):not(.disabled).active,
-	.show > .btn-dark.dropdown-toggle {
-		color: #fff;
-		background-color: #1d2124;
-		border-color: #171a1d;
-	}
-
-	.btn-dark:not(:disabled):not(.disabled):active:focus, .btn-dark:not(:disabled):not(.disabled).active:focus,
-	.show > .btn-dark.dropdown-toggle:focus {
-		box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5);
-	}
-
+	
 	.btn-lg {
 		padding: 0.5rem 1rem;
 		font-size: 1.25rem;
