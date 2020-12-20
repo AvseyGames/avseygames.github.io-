@@ -23,12 +23,12 @@
 				<ul class="projects-list">
 					{% for item in site.categories.projects reversed %}
 					<li>
-					<div class="card blog-post">
+					<div class="card blog-post center">
 						<img class="card-img-top" src="{{ item.project.logo | prepend: site.baseurl }}" alt="{{ item.project.title }}" />
 						<div class="card-body">
-							<h2 class="card-title center">{{ item.project.title }}</h2>
+							<h2 class="card-title">{{ item.project.title }}</h2>
 							<p class="card-text">{{ item.project.description }} </p>
-							<div class="div_block center">
+							<div class="div_block">
 								<a href="{{ item.url | prepend: site.baseurl }}" class="btn btn-dark btn-lg">Read</a>
 								<a class="ct-link" href="{{ item.project.url}}" target="_blank">
 									<img alt="" src="{{ site.baseurl | append: "/assets/images/GooglePlay-Button.svg" }}" class="ct-image">
