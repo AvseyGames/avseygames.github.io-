@@ -23,15 +23,16 @@
 				<ul class="projects-list">
 					{% for item in site.categories.projects reversed %}
 					<li>
-						<a href="{{ item.url | prepend: site.baseurl }}">
-							<div class="card blog-post">
-								<img class="card-img-top" src="{{ item.project.logo | prepend: site.baseurl }}" alt="{{ item.project.title }}" />
-								<div class="card-body">
-									<h2 class="card-title">{{ item.project.title }}</h2>
-									<p class="card-text">{{ item.project.description }} </p>
-								</div>
-							</div>
-						</a>
+					<div class="card blog-post">
+						<img class="card-img-top" src="{{ item.project.logo | prepend: site.baseurl }}" alt="{{ item.project.title }}" />
+						<div class="card-body">
+							<h2 class="card-title">{{ item.project.title }}</h2>
+							<p class="card-text">{{ item.project.description }} </p>
+							
+							<a href="{{ item.url | prepend: site.baseurl }}" >Read</a>
+							
+						</div>
+					</div>
 					</li>
 					{% endfor %}
 				</ul>
