@@ -29,8 +29,8 @@
 									<div class="image">
 										<img src="{{ item.project.logo | prepend: site.baseurl }}" alt="{{ item.project.title }}" />
 										<div>
-											<h3>{{ item.project.title | truncate: 25 }}</h3>
-											<h2>{{ item.project.description | strip_html | strip_newlines | truncate: 150 }}</h2>
+											<h3 class="panel-title font-weight-bold">{{ item.project.title | truncate: 25 }}</h3>
+											<p class="p-0 my-1 mx-0">{{ item.project.description | strip_html | strip_newlines | truncate: 150 }}</p>
 										</div>
               								</div>
 								</div>
