@@ -23,6 +23,20 @@
 				<h2>Projects I have worked on.</h2>
 				<ul class="projects-list">
 					{% for item in site.categories.projects reversed %}
+					
+					<div class="card blog-post">
+						<img class="card-img-top" src="{{ item.project.logo | prepend: site.baseurl }}" alt="{{ item.project.title }}" />
+						<div class="card-body center">
+							<!-- <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ site.author_logo }}" class="author-profile-img"> -->
+							<h4 class="card-title">{{ item.project.title | truncate: 25 }}</h4>
+							<p class="card-text">{{ item.project.description | strip_html | strip_newlines | truncate: 150 }}<</p>
+							
+							<a href="{{ item.url | prepend: site.baseurl }}" class="btn btn-dark btn-lg">Read</a>
+							
+						</div>
+					</div>
+					
+					
 						<li>
 							<a href="{{ item.url | prepend: site.baseurl }}">
 								<div class="img-wrapper">
