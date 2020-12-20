@@ -26,7 +26,6 @@
 					<div class="card blog-post">
 						<img class="card-img-top" src="{{ item.project.logo | prepend: site.baseurl }}" alt="{{ item.project.title }}" />
 						<div class="card-body center">
-							<!-- <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ site.author_logo }}" class="author-profile-img"> -->
 							<h4 class="card-title">{{ item.project.title | truncate: 25 }}</h4>
 							<p class="card-text">{{ item.project.description | strip_html | strip_newlines | truncate: 150 }}<</p>
 							
@@ -35,20 +34,6 @@
 						</div>
 					</div>
 					</li>
-					
-						<li>
-							<a href="{{ item.url | prepend: site.baseurl }}">
-								<div class="img-wrapper">
-									<div class="image">
-										<img src="{{ item.project.logo | prepend: site.baseurl }}" alt="{{ item.project.title }}" />
-										<div>
-											<h3 class="panel-title font-weight-bold">{{ item.project.title | truncate: 25 }}</h3>
-											<p class="p-0 my-1 mx-0">{{ item.project.description | strip_html | strip_newlines | truncate: 150 }}</p>
-										</div>
-              								</div>
-								</div>
-							</a>
-						</li>
 					{% endfor %}
 				</ul>
 			</div>
