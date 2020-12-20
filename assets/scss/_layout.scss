@@ -212,9 +212,10 @@ fieldset:disabled a.btn {
 	}
 	
 	.card-img-top {
-		width: 100%;
-		border-top-left-radius: calc(0.25rem - 1px);
-		border-top-right-radius: calc(0.25rem - 1px);
+		height: 220px;
+      		object-fit: cover;
+      		object-position: center;
+      		@media screen and (max-width: $on-palm) {width: 100%;}
 	}
 	
 	.card-body {
