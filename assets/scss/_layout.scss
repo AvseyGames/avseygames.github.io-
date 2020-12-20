@@ -105,6 +105,10 @@
 		
 	}
 	
+	
+
+  
+	
 	.gametag {
     		background: #666;
     		border-radius: 50px;
@@ -115,10 +119,21 @@
     		font-weight: 600;
     		letter-spacing: 1px;
 	}
+	
+	.image {
+	img {
+		
+      		height: 220px;
+      		object-fit: cover;
+      		object-position: center;
+      		@media screen and (max-width: $on-palm) {width: 100%;}
+	}
 
 	.img-wrapper {
 		position: relative;
-		box-shadow: 0px 10px 30px 0px rgba(96,125,139,0.31);
+		margin-bottom: 2em;
+ 		border: none;
+  		box-shadow: 0px 10px 30px 0px rgba(96,125,139,0.31);
 
 		&:before {
 			content: "View Project";
