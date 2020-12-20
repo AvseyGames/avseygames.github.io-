@@ -23,7 +23,7 @@
 				<h2>Projects I have worked on.</h2>
 				<ul class="projects-list">
 					{% for item in site.categories.projects reversed %}
-					
+					<li>
 					<div class="card blog-post">
 						<img class="card-img-top" src="{{ item.project.logo | prepend: site.baseurl }}" alt="{{ item.project.title }}" />
 						<div class="card-body center">
@@ -35,7 +35,7 @@
 							
 						</div>
 					</div>
-					
+					</li>
 					
 						<li>
 							<a href="{{ item.url | prepend: site.baseurl }}">
