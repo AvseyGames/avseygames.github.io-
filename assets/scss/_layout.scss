@@ -37,8 +37,8 @@
 	z-index: 1;
 
 	@media (min-width: $breakpoint-medium) {
-		padding: 21rem 0 0;
-		margin-bottom: 23.42rem;
+		padding: 3rem 0 0;
+		margin-bottom: 3rem;
 	}
 }
 
@@ -170,7 +170,6 @@
 		font-size: 1rem;
 		line-height: 1.5;
 		border-radius: 0.25rem;
-		transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 	}
 
 	.btn:hover, .btn:focus {
@@ -194,8 +193,7 @@
 		background-image: none;
 	}
 
-	a.btn.disabled,
-	fieldset:disabled a.btn {
+	a.btn.disabled, fieldset:disabled a.btn {
 		pointer-events: none;
 	}
 
