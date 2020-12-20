@@ -57,7 +57,9 @@
 }
 
 .div_block{
+    width:100%;
     flex-direction: row;
+    display: flex;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -182,6 +184,7 @@
 		font-size: 1.5rem;
 		line-height: 1.5;
 		border-radius: 0.25rem;
+		margin: 16px;
 	}
 
 	.btn:hover, .btn:focus {
