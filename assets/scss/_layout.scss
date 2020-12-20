@@ -237,56 +237,6 @@ fieldset:disabled a.btn {
 		margin-bottom: 0;
 	}
 	
-	.image {
-		img {
-		
-      		height: 220px;
-      		object-fit: cover;
-      		object-position: center;
-      		@media screen and (max-width: $on-palm) {width: 100%;}
-		}
-	}
-
-	.img-wrapper {
-		position: relative;
-		margin-bottom: 2em;
- 		border: none;
-  		box-shadow: 0px 10px 30px 0px rgba(96,125,139,0.31);
-
-		&:before {
-			content: "View Project";
-			color: $color-alabaster;
-			@extend .h2;
-			font-weight: 800;
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			margin-top: -.5rem;
-			margin-left: -4.4rem;
-			opacity: 0;
-			-webkit-transition: all .5s ease-in-out;
-    		transition: all .5s ease-in-out;
-    		-webkit-transition-delay: .25s;
-    		transition-delay: .25s;
-    		z-index: 2;
-		}
-
-		&:after {
-			background: #000;
-			content: "";
-			display: block;
-			position: absolute;
-			top: 0;
-			right: 0;
-			bottom: 0;
-			left: 0;
-			opacity: 0;
-			-webkit-transition: all .5s ease-in-out;
-    		transition: all .5s ease-in-out;
-    		z-index: 1;
-		}
-	}
-
 	span {
 		margin: 1rem 0 .5rem;
 	}
