@@ -86,21 +86,7 @@
 }
 
 .projects-list {
-	@media (min-width: $breakpoint-small) {
-		margin-left: -1.5rem;
-		margin-right: -1.5rem;
-		@include clearfix;
-
-		li {
-			float: left;
-			width: 50%;
-		}
-
-		a {
-			padding: 0 1.5rem;
-		}
-	}
-
+	
 	@media (min-width: $breakpoint-medium) {
 		li {
 			width: 33.33333%;
