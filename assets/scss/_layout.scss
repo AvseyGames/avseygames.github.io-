@@ -106,12 +106,13 @@
 	}
 	
 	.image {
-	img {
+		img {
 		
       		height: 220px;
       		object-fit: cover;
       		object-position: center;
       		@media screen and (max-width: $on-palm) {width: 100%;}
+		}
 	}
 
 	.img-wrapper {
