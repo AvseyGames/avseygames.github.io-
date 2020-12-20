@@ -28,9 +28,9 @@
 								<div class="img-wrapper">
 									<div class="image">
 										<img src="{{ item.project.logo | prepend: site.baseurl }}" alt="{{ item.project.title }}" />
-										<div class="card-body">
-											<h3 class="panel-title font-weight-bold">{{ item.project.title | truncate: 25 }}</h3>
-											<p>{{ item.project.description | strip_html | strip_newlines | truncate: 150 }}</p>
+										<div>
+											<h3>{{ item.project.title | truncate: 25 }}</h3>
+											<h2>{{ item.project.description | strip_html | strip_newlines | truncate: 150 }}</h2>
 										</div>
               								</div>
 								</div>
