@@ -157,8 +157,9 @@
 		margin-bottom: 0;
 	}
 
-	.card-text:last-child {
-		margin-bottom: 0;
+	.card-text {
+		line-height:1.5em;
+		min-height:4.5em;
 	}
 	
 	span {
