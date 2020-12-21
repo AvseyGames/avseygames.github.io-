@@ -2,7 +2,7 @@
 	display: block;
 	margin: 0 auto;
 	max-width:1040px;
-	width:100%
+	width:100%;
 	padding: 0 1rem;
 	@include clearfix;
 }
@@ -62,15 +62,15 @@
 }
 
 .post-full-image{
-	margin:0 -10vw -165px;
-	height:800px;
+	margin:0 -10vw -50px;
+	height:500px;
 	background:#c5d2d9 50%;
 	background-size:cover;
 	border-radius:5px
 }
 @media (max-width:1170px){
 	.post-full-image{
-		margin:0 -4vw -100px;
+		margin:0 -4vw -50px;
 		height:600px;
 		border-radius:0
 	}
